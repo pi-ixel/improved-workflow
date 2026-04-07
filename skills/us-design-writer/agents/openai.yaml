@@ -1,0 +1,4 @@
+interface:
+  display_name: "US详细设计"
+  short_description: "按skill内置us设计模板生成开发前详细技术设计文档"
+  default_prompt: "Use $us-design-writer to read template from references/us设计.md inside the skill, generate a pre-development detailed design doc, write it to ./<变更描述>-us设计.md by default, and mark all unknowns as 【存疑】 with explicit questions."
