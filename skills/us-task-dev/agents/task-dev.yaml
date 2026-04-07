@@ -1,0 +1,4 @@
+interface:
+  display_name: "任务开发"
+  short_description: "基于任务分解文档逐个 task 开发实现，验证 DoD 后输出总结并更新文档"
+  default_prompt: "Use $us-task-dev. Read the task breakdown document I specify, implement the indicated task (or recommend the next one), verify against DoD checklist, write a task summary, and update the document. Default task breakdown path: ./<变更描述>-任务分解.md"
