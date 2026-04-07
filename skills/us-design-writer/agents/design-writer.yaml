@@ -1,0 +1,4 @@
+interface:
+  display_name: "US设计文档"
+  short_description: "按skill内置us设计模板生成开发前详细技术设计文档（仅Phase 1）"
+  default_prompt: "Use $us-design-writer Phase 1 only. Read template from references/us设计.md inside the skill, generate a pre-development detailed design doc based on the requirements I provide, write it to ./<需求ID>/<变更描述>-us设计.md by default (ask user for 需求ID if not provided), and mark all unknowns as 【存疑】 with explicit questions. Do not proceed to task breakdown."

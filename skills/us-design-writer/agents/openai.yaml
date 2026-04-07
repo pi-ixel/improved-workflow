@@ -1,4 +1,4 @@
 interface:
-  display_name: "US详细设计"
-  short_description: "按skill内置us设计模板生成开发前详细技术设计文档"
-  default_prompt: "Use $us-design-writer to read template from references/us设计.md inside the skill, generate a pre-development detailed design doc, write it to ./<变更描述>-us设计.md by default, and mark all unknowns as 【存疑】 with explicit questions."
+  display_name: "US详细设计+任务分解"
+  short_description: "两阶段完整流程：先生成US设计文档，审批确认后生成可独立验收的任务分解"
+  default_prompt: "Use $us-design-writer full two-phase workflow. Phase 1: read template from references/us设计.md, generate a pre-development detailed design doc based on my requirements, write to ./<变更描述>-us设计.md. Then ask for approval — I can confirm, request modifications, or abort. Phase 2 (after confirmation): read template from references/任务分解.md and the confirmed design doc, generate independently verifiable task breakdown with T1/T2 numbering, DoD checklists, and dependencies, write to ./<变更描述>-任务分解.md. Mark all unknowns as 【存疑】 in both phases."
