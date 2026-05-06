@@ -1,0 +1,4 @@
+interface:
+  display_name: "Issue Ticket Summary"
+  short_description: "Summarize git changes into 4-part issue tickets"
+  default_prompt: "Use $issue-ticket-summary to summarize the latest commit, a specified commit, or uncommitted changes into 原因分析、实现说明、测试建议、开发人员测试报告。"
