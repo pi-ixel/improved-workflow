@@ -1,4 +1,0 @@
-interface:
-  display_name: "任务分解"
-  short_description: "基于已确认的设计文档生成可独立验收的任务分解（仅Phase 2）"
-  default_prompt: "Use $us-design-writer Phase 2 only. Read template from references/任务分解.md inside the skill, then read the confirmed design doc I provide, break it down into independently verifiable tasks with T1/T2 numbering, DoD checklists (function/test/docs), and dependency fields. Write output to ./<需求ID>/<变更描述>-任务分解.md by default (same directory as the design doc), and mark all unknowns as 【存疑】."
